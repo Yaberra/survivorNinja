@@ -336,3 +336,16 @@ nav {
     width: 150px;
     margin-left:100px
 }
+
+#signUpButton {
+    height: 50px;
+    width: 200px;
+    background-color: #B62482
+}
+
+#signInButton {
+    height: 50px;
+    width: 200px;
+    background-color: #B62482
+}
+

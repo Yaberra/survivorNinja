@@ -1,6 +1,4 @@
-DROP DATABASE   survivorNinja;
-CREATE DATABASE survivorNinja;
-
+SELECT * FROM survivorninja.users;
 
 USE survivorNinja;
 
