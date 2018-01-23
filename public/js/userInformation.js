@@ -1,7 +1,7 @@
 $(document).ready(function() {
  $("#formSubmitButton").on("submit", function(event){
   event.preventDefault();
-   ar userInfo = {
+   var userInformation = {
     name: $("#userName").val().trim();
     Password: $("#userPassword").val().trim();
     City: $("#userCity").val().trim();
@@ -18,7 +18,7 @@ $(document).ready(function() {
 // Send the POST request.
     $.ajax("/user", {
       type: "POST",
-      data: userInfo
+      data: userInformation
     }).then(
       function() {
         console.log();

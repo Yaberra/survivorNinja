@@ -49,30 +49,32 @@ nav {
     background-color: #B62482
 }
 
-#inputName {
+#userName {
     border-style: solid 2px;
     border-color: #F35406;
     height: 50px;
     width: 950px;
 }
 
-#inputEmail {
+#userPassword {
     border-style: solid 2px;
     border-color: #F35406;
     height: 50px;
     width: 950px;
 }
 
-#inputCity {
+#userCity {
     border-style: solid 2px;
     border-color: #F35406;
     height: 50px;
+    width: 950px;
 }
 
-#inputState {
+#userState {
     border-style: solid 2px;
     border-color: #F35406;
     height: 50px;
+    width: 950px;
 }
 
 #submitButton {
@@ -337,15 +339,31 @@ nav {
     margin-left:100px
 }
 
-#signUpButton {
+#signUp {
     height: 50px;
     width: 200px;
     background-color: #B62482
 }
 
-#signInButton {
+#signIn {
     height: 50px;
     width: 200px;
     background-color: #B62482
 }
+
+#formSubmitButton {
+        height: 50px;
+        width: 200px;
+        background-color: #B62482
+
+}
+
+#gameButton {
+    height: 50px;
+    width: 200px;
+    background-color: #B62482
+}
+
+
+
 

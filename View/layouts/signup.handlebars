@@ -1,83 +1,91 @@
-<h1>Register</h>
-	 <form action="/api/register" method="post">
-            <div class="form-group">
-                <label for="inputName">
-                    <h4>User Name</h4></label>
-                <input type="name" class="form-control" id="userName" aria-describedby="nameHelp" placeholder="Enter name">
-            </div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
 
-             <div class="form-group">
-                <label for="inputPassword">
-                    <h4>Password</h4></label>
-                <input type="name" class="form-control" id="userPassword" aria-describedby="nameHelp" placeholder="Enter password">
-            </div>
-            <div class="row">
-                <div class="form-group col-md-6">
-                    <label for="inputCity">
-                        <h4>City</h4></label>
-                    <input type="text" class="form-control" id="userCity" placeholder="Enter city">
-                </div>
-            <div class="form-group col-md-4">
-                <label for="inputState">
-                    <h4>State</h4></label>
-                    <select id="userState" class="form-control">
-                        <option> Choose </option>
-                        <option><h5>Alabama</h5></option>
-                        <option><h5>Alaska</h5></option>
-                        <option><h5>Arizona</h5></option>
-                        <option><h5>Arkansas</h5></option>
-                        <option><h5>California</h5></option>
-                        <option><h5>Colorado</h5></option>
-                        <option><h5>Connecticut</h5></option>
-                        <option><h5>Delaware</h5></option>
-                        <option><h5>Florida</h5></option>
-                        <option><h5>Georgia</h5></option>
-                        <option><h5>Hawaii</h5></option>
-                        <option><h5>Idaho</h5></option>
-                        <option><h5>Illinois</h5></option>
-                        <option><h5>Indiana</h5></option>
-                        <option><h5>Iowa</h5></option>
-                        <option><h5>Kansas</h5></option>
-                        <option><h5>Kentucky</h5></option>
-                        <option><h5>Louisiana</h5></option>
-                        <option><h5>Maine</h5></option>
-                        <option><h5>Maryland</h5></option>
-                        <option><h5>Massachusetts</h5></option>
-                        <option><h5>Michigan</h5></option>
-                        <option><h5>Minnesota</h5></option>
-                        <option><h5>Mississippi</h5></option>
-                        <option><h5>Missouri</h5></option>
-                        <option><h5>Montana</h5></option>
-                        <optiion><h5>Nebraska</h5></option>
-                        <option><h5>Nevada</h5></option>
-                        <option><h5> New Hampshire</h5></option>
-                        <option><h5>New Jersey</h5></option>
-                        <option><h5>New Mexico</h5></option>
-                        <option><h5>New York</h5></option>
-                        <option><h5>North Carolina</h5></option>
-                        <option><h5>North Dakota</h5></option>
-                        <option><h5>Ohio</h5></option>
-                        <option><h5>Oklahoma</h5></option>
-                        <option><h5>Oregon</h5></option>
-                        <option><h5>Pennsylvania</h5></option>
-                        <option><h5>Rhode Island</h5></option>
-                        <option><h5>South Carolina</h5></option>
-                        <option><h5>South Dakota</h5></option>
-                        <option><h5>Tennessee</h5></option>
-                        <option><h5>Texas</h5></option>
-                        <option><h5>Utah</h5></option>
-                        <option><h5>Vermont</h5></option>
-                        <option><h5>Virginia</h5></option>
-                        <option><h5>Washington</h5></option>
-                        <option><h5>West Virginia</h5></option>
-                        <option><h5>Wisconsin</h5></option>
-                        <option><h5>Wyoming...<h5</option></option>
-                </select>
-            </div>
-        </div>
-        <br>
-    </form>
-</div>
+<h2>Sign In</h2>
 
-</main>
-<a class="btn btn-primary btn-lg" id="gameButton" href="/Game">Play Game!</a>
+<form action="/api/users" method="post">
+
+    <div class="form-group">
+        <label for="inputName">User Name</label>
+        <input type="name" class="form-control" id="userName" aria-describedby="nameHelp" placeholder="Enter name" style="width: 960px; height : 25px;"Sans";font-size: 18px;">
+    </div>
+    <br><br>
+    <div class="form-group">
+        <label for="inputPassword">Password</label>
+        <input type="password" class="form-control" id="userPassword" aria-describedby="nameHelp" placeholder="Enter password" style="width: 960px; height : 25px;"Sans";font-size: 18px;">
+    </div>
+    <br><br>
+
+    <div class="form-group" >
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="userCity" placeholder="Enter city" style="width: 960px; height : 25px;"Sans";font-size: 18px;">
+    </div>
+    <br><br>
+    <div class="form-group">
+        <label for="inputState">State</label>
+        <select id="userState" class="form-control" id="userState" style="width: 960px; height : 30px;"Sans";font-size: 18px;">
+            <option> Choose </option>
+            <option><h5>Alabama</h5></option>
+            <option><h5>Alaska</h5></option>
+            <option><h5>Arizona</h5></option>
+            <option><h5>Arkansas</h5></option>
+            <option><h5>California</h5></option>
+            <option><h5>Colorado</h5></option>
+            <option><h5>Connecticut</h5></option>
+            <option><h5>Delaware</h5></option>
+            <option><h5>Florida</h5></option>
+            <option><h5>Georgia</h5></option>
+            <option><h5>Hawaii</h5></option>
+            <option><h5>Idaho</h5></option>
+            <option><h5>Illinois</h5></option>
+            <option><h5>Indiana</h5></option>
+            <option><h5>Iowa</h5></option>
+            <option><h5>Kansas</h5></option>
+            <option><h5>Kentucky</h5></option>
+            <option><h5>Louisiana</h5></option>
+            <option><h5>Maine</h5></option>
+            <option><h5>Maryland</h5></option>
+            <option><h5>Massachusetts</h5></option>
+            <option><h5>Michigan</h5></option>
+            <option><h5>Minnesota</h5></option>
+            <option><h5>Mississippi</h5></option>
+            <option><h5>Missouri</h5></option>
+            <option><h5>Montana</h5></option>
+            <optiion><h5>Nebraska</h5></option>
+            <option><h5>Nevada</h5></option>
+            <option><h5> New Hampshire</h5></option>
+            <option><h5>New Jersey</h5></option>
+            <option><h5>New Mexico</h5></option>
+            <option><h5>New York</h5></option>
+            <option><h5>North Carolina</h5></option>
+            <option><h5>North Dakota</h5></option>
+            <option><h5>Ohio</h5></option>
+            <option><h5>Oklahoma</h5></option>
+            <option><h5>Oregon</h5></option>
+            <option><h5>Pennsylvania</h5></option>
+            <option><h5>Rhode Island</h5></option>
+            <option><h5>South Carolina</h5></option>
+            <option><h5>South Dakota</h5></option>
+            <option><h5>Tennessee</h5></option>
+            <option><h5>Texas</h5></option>
+            <option><h5>Utah</h5></option>
+            <option><h5>Vermont</h5></option>
+            <option><h5>Virginia</h5></option>
+            <option><h5>Washington</h5></option>
+            <option><h5>West Virginia</h5></option>
+            <option><h5>Wisconsin</h5></option>
+            <option><h5>Wyoming..}.<h5</option></option>
+        </select>
+    </div>
+    <br><br>
+    <button id="formSubmitButton" type="submit" name="btnSubmit" style="width:100px; height:40px;" value="Submit" style="width: 200px; height : 50px;"Sans";font-size: 18px;background-color: #B62482"><h2>Submit</h2></button>
+    <br><br>
+    <a href="Game.html"><button id="gameButton"type="button" class="btn btn-warning" style="width:150px; height:40px" style="width: 200px; height : 50px;"Sans";font-size: 18px; background-color: #B62482"> <h2>Play Game!</h2></button></a></li>
+ </form>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src ="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script type="text/javascript" src = "../js/userInformation.js"></script>
+
+
