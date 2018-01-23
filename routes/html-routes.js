@@ -23,6 +23,12 @@ app.get("/", function(req, res){
    })
    }
 })
+
+// index route loads index.handlebars
+app.get("/signUp", function(req, res) {
+    res.render("index");
+
+  });   
   
 // index route loads view.html
 app.get("/", function(req, res) {
