@@ -8,28 +8,28 @@ module.exports = function(sequelize, DataTypes) {
 
     userName: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
 
     userPassword: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
 
 
     userCity: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
 
     userState: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true,
     },
 
     avatar: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
     },
 
     score: {
