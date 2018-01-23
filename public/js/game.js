@@ -1,14 +1,38 @@
 $(document).ready(function() {
  
-$(".avatarSelector").on("click", "input" , "label" , function(event) {
-console.log(event);
+	$(".avatarSelector").on("click", "input" , "label" , function(event) {
+    
+		var avatar = event.target
+    console.log(avatar)
+		var useravatar = $( avatar ).data( "useravatar" );
 
-})
+		$.ajax("/api/users/", {
+			method:"PUT", 
+			data: {
+				avatar: useravatar
+			}
+		}).done(function ( data ) {
+			console.log( "User updated." )
+		});
+	});
 
 });
 
-//  jquery data method to get out the data from the event target 
-//  store it in the sql database ...
-// score when the fill the filled
-// do all the calcuations from the api 
+function getUserAnswer() {
 
+ $("#userScore").on("click", function(event) {
+        event.preventDefault();
+
+        var newQuiz = {
+            avatar: $("#userScore").val().trim(),
+            scores: [
+                $("#Question1").val().trim(),
+                $("#Question2").val().trim(),
+                $("#Question3").val().trim(),
+            ]
+        };
+
+        console.log(newQuiz);
+ });
+
+ };
