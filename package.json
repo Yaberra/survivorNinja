@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yeti17/survivorNinja.git"
+    "url": "git+https://github.com/juanitapinkney/survivorNinja.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yeti17/survivorNinja/issues"
+    "url": "https://github.com/juanitapinkney/survivorNinja/issues"
   },
-  "homepage": "https://github.com/yeti17/survivorNinja#readme",
+  "homepage": "https://github.com/juanitapinkney/survivorNinja#readme",
   "dependencies": {
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
