@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Survivor Ninja </title>
+    <title> Survivor Hero </title>
     <!-- Latest compiled and minified CSS & JS -->
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -19,7 +19,7 @@
 <div class="container">
         <nav class="navbar navbar-default navbar-fixed-top">
             <a class="navbar-brand" href="#"></a>
-            <div a class="navbar-brand pull-left"><strong><h1>Survivor Ninja</h1></strong></div>
+            <div a class="navbar-brand pull-left"><strong><h1>Survivor Hero</h1></strong></div>
             <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                   <li class="active"></li>
@@ -42,41 +42,41 @@
  <br>
  <br>
 
-    <!-- AVATAR -->
-    <!-- The user chooses from 5 avatars -->
-    <!-- The avata's are linked to the users account in the survivorNinja database -->
+    <!-- hero -->
+    <!-- The user chooses from 5 heros -->
+    <!-- The avata's are linked to the users account in the survivorHero database -->
     <div class="container">
-    <div class="class avatars">
+    <div class="class heros">
     	<div class="card text-center">
   		<div class="card-header">
-    	<h1>NINJA AVATARS</h1> 
+    	<h1>Hero heroS</h1> 
          <div class="panel, panel-default">
             <div class="row">
                 <div class="col-lg-12" ">
-                    <p><h3>Select your Avatar</h3></p>
+                    <p><h3>Select your Hero</h3></p>
                 </div>
             </div>
             <br>
-            <div class="avatarSelector">
+            <div class="heroSelector">
             <div class="form-check form-check-inline" >
-                <input class="form-check-input" class ="userAvatar" type="radio" id="inlineCheckbox1" name="avatarButton" data-userAvatar = "avataroption1">
-                <label class="form-check-label" for="inlineCheckbox1" data-userAvatar = "avataroption1"><img src="./images/hero1.png" class="d-inline-block align-top" id="hero1"></label>
+                <input class="form-check-input" class ="userHero" type="radio" id="inlineCheckbox1" name="heroButton" data-userHero = "herooption1">
+                <label class="form-check-label" for="inlineCheckbox1" data-userHero = "herooption1"><img src="./images/hero1.jpg" class="d-inline-block align-top" id="hero1"></label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" id="inlineCheckbox2" name="avatarButton" data-userAvatar="avataroption2">
-                <label class="form-check-label" for="inlineCheckbox2" data-userAvatar="avataroption2" ><img src="./images/Hero2.png" class="d-inline-block align-top" id="hero2"></label>
+                <input class="form-check-input" type="radio" id="inlineCheckbox2" name="heroButton" data-userHero="herooption2">
+                <label class="form-check-label" for="inlineCheckbox2" data-userHero="herooption2" ><img src="./images/Hero2.jpg" class="d-inline-block align-top" id="hero2"></label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" id="inlineCheckbox3" name="avatarButton" data-userAvatar="avataroption3">
-                <label class="form-check-label" for="inlineCheckbox3" data-userAvatar="avataroption3"><img src="./images/hero3.png" data-userAvatar="avataroption3" class = "d-inline-block align-top" id="hero3"></label>
+                <input class="form-check-input" type="radio" id="inlineCheckbox3" name="heroButton" data-userHero="herooption3">
+                <label class="form-check-label" for="inlineCheckbox3" data-userHero="herooption3"><img src="./images/hero3.jpg" data-userHero="herooption3" class = "d-inline-block align-top" id="hero3"></label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" id="inlineCheckbox4" name="avatarButton" data-userAvatar="avataroption4">
-                <label class="form-check-label" for="inlineCheckbox4" data-userAvatar="avataroption4"><img src="./images/hero4.png" class = "d-inline-block align-top" id="hero4"></label>
+                <input class="form-check-input" type="radio" id="inlineCheckbox4" name="heroButton" data-userHero="herooption4">
+                <label class="form-check-label" for="inlineCheckbox4" data-userHero="herooption4"><img src="./images/hero4.jpg" class = "d-inline-block align-top" id="hero4"></label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" id="inlineCheckbox5" name="avatarButton" data-userAvatar="avataroption5" >
-                <label class="form-check-label" for="inlineCheckbox5" data-userAvatar="avataroption5"><img src="./images/hero5.png" class = "d-inline-block align-top" id="hero5"></label>
+                <input class="form-check-input" type="radio" id="inlineCheckbox5" name="heroButton" data-userHero="herooption5" >
+                <label class="form-check-label" for="inlineCheckbox5" data-userHero="herooption5"><img src="./images/hero5.jpg" class = "d-inline-block align-top" id="hero5"></label>
             </div>
           </div>
       </div>
@@ -161,30 +161,30 @@
 
 <!-- SCORE -->
 <!-- The app will capture and store the score for each answer--> 
-<!-- User earns  ninja star points-->
-<!-- Each user will need to earn 5 Ninja Star to move to the next level -->
+<!-- User earns  Hero star points-->
+<!-- Each user will need to earn 5 Hero Star to move to the next level -->
 
 <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="./images/NinjaStarRed.jpeg">
-    <img class="card-img-top" src="./images/NinjaStarGreen.jpeg">
-    <img class="card-img-top" src="./images/NinjaStarYellow.jpeg">
-    <img class="card-img-top" src="./images/NinjaStarBlue.jpeg">
+    <img class="card-img-top" src="./images/HeroStarRed.jpg">
+    <img class="card-img-top" src="./images/HeroStarGreen.jpg">
+    <img class="card-img-top" src="./images/HeroStarYellow.jpg">
+    <img class="card-img-top" src="./images/HeroStarBlue.jpg">
 
     <div class="card-body">
       <h5 class="card-title"><strong><h1>Level 1</strong></h1>
-      <p class="card-text"> Earn 3 Ninja Stars</p>
+      <p class="card-text"> Earn 3 Hero Stars</p>
       <h5 class="card-title"><strong><h1>Level 2</strong></h1>
-      <p class="card-text"> Earn 3 Ninja Stars.</p>
+      <p class="card-text"> Earn 3 Hero Stars.</p>
       <h5 class="card-title"><strong><h1>Level 3</strong></h1>
-      <p class="card-text"> Earn 3 Ninja Stars.</p>
+      <p class="card-text"> Earn 3 Hero Stars.</p>
 
     </div>
   </div>
   <div class="card">
         <div class="card-body">
             <img class="card-img-top" src="./images/hero1.jpg" alt="Card image cap">
-      <h5 class="card-title"><strong><h1>My Avatar</strong></h1>
+      <h5 class="card-title"><strong><h1>My Hero</strong></h1>
       <p class="card-text"></p>
     </div>
     
@@ -200,16 +200,16 @@
 
 <div class="container" id="footerCard">
 <div class="card bg-dark text-white">
-  <img class="card-img" src="./images/safetySign.jpeg" alt="Card image">
+  <img class="card-img" src="./images/safetySign.jpg" alt="Card image">
   <div class="card-img-overlay">
 
     <br>
     <article>
-      <p>Dear Survivor Ninja,</p>
+      <p>Dear Survivor Hero,</p>
    
       <p>You are hearing from the grownups around you that there is a hurricane coming to your town. There isn’t a lot of time to prepare and you only have 2 days!</p>
    
-      <p>Master Wu is calling on all Survivor Ninjas to take the test and earn 20 Ninja Stars to prepare you for the hurricane. You are a strong and courageous warrior! Answer the questions for each level and earn 5 Ninja Stars to move on to the next level.</p>
+      <p>Master Wu is calling on all Survivor Heros to take the test and earn 20 Hero Stars to prepare you for the hurricane. You are a strong and courageous warrior! Answer the questions for each level and earn 5 Hero Stars to move on to the next level.</p>
     
        <p>Let's get started!</p>
     </article>
@@ -241,7 +241,7 @@
       <div class="modal-header">
         <h5 class="modal-title" id="quizLevelOne"><h2>Level 1: Know Your Facts!</h2>
     <!--     <p><h4>You have 2 days to prepare. But wait ...</h4> -->
-        <img class="modalImage" src="./images/stormSign.jpeg">
+        <img class="modalImage" src="./images/stormSign.jpg">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -251,7 +251,7 @@
             <label for="exampleFormControlSelect1"><h4>Question 1: What is a Hurricane?<h4></label>
             <select class="form-control"  style="font-size: 20px;" id="exampleFormControlSelect1">
               <option>Choose your answer</option>
-              <option>1. A hurricane is losts of sand blowing in the wind.</option>
+              <option>1. A hurricane is lots of sand blowing in the wind.</option>
               <option>2. A hurricane is a muddy puddle of water.</option>
               <option>3. A hurricane is a big storm with strong winds and moves very fast.</option>
              </select>

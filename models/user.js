@@ -4,7 +4,7 @@ module.exports = function(sequelize, DataTypes) {
 //     name: DataTypes.STRING,
 //     city: DataTypes.STRING,
 //     state: DataTypes.STRING,
-//     avatar: DataTypes.TEXT,
+//     hero: DataTypes.TEXT,
 //     score: DataTypes.INTEGER
 
 //   });
@@ -17,7 +17,7 @@ module.exports = function(sequelize, DataTypes) {
 //     userName: "",
 //     userCity: "",
 //     userState: "",
-//     avatar: "",
+//     hero: "",
 //     score:"",
 
 //   })
@@ -49,7 +49,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     },
 
-    avatar: {
+    hero: {
       type: DataTypes.STRING,
       allowNull: true
     },

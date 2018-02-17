@@ -34,7 +34,7 @@ nav {
 .jumbotron {
     height: 400px;
     /*background-color: #FBFBFB;*/
-   /* background-image: url(../images/NinjaIcon.jpg);*/
+   /* background-image: url(../images/HeroIcon.jpg);*/
     margin-bottom: 0px;
     background-position: 0% 25%;
     background-size: cover;
@@ -248,7 +248,7 @@ nav {
 
 }
 
-#avatarSelector {
+#heroSelector {
 	display: inline-block;
  background-color: #FBFBFB
 

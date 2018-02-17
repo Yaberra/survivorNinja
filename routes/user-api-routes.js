@@ -7,7 +7,7 @@ module.exports = function(app) {
       userName: req.body.userName,
       userCity: req.body.city,
       userState: req.body.state,
-      avatar: req.body.avatar
+      hero: req.body.hero
       })
       .then(function(dbUser) {
         res.json(dbUser);
@@ -18,7 +18,7 @@ module.exports = function(app) {
     db.User.update(req.body,
       {
         where: {
-        avatar: req.body.avatar
+        hero: req.body.hero
         }
       })
     .then(function(dbUser) {

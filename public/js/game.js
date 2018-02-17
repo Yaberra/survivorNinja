@@ -1,6 +1,6 @@
 $(document).ready(function() {
  
-$(".avatarSelector").on("click", "input" , "label" , function(event) {
+$(".heroSelector").on("click", "input" , "label" , function(event) {
 console.log(event);
 
 })

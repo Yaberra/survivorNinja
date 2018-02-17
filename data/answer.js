@@ -5,7 +5,7 @@ var scoreArray = [
         userName:'',
         userCity: '',
         userState: '',
-        avatar: '',
+        hero: '',
         scores: [
             "",
             "",
